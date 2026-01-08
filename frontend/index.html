@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SBT Minting Platform</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Soul Bound Token</h1>
+    <div class="container">
+        <h1>Soul Bound Token</h1>
+        <p class="subtitle">Non-transferable identity on Base Chain</p>
+        
+        <div class="card">
+            <div class="info">
+                <p>Mint Fee: <strong>0.000001 ETH</strong></p>
+                <p>Network: <strong>Base Mainnet</strong></p>
+            </div>
+            <button class="mint-btn" id="mintBtn">Connect Wallet</button>
+        </div>
+        
+        <div id="status" class="status"></div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
