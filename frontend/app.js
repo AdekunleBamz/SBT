@@ -100,3 +100,11 @@ async function mintSBT() {
         mintBtn.textContent = "Mint SBT";
     }
 }
+
+// Event listener
+mintBtn.addEventListener("click", mintSBT);
+
+// Check if already connected
+if (window.ethereum && window.ethereum.selectedAddress) {
+    connectWallet();
+}

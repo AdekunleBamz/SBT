@@ -61,3 +61,33 @@ h1 {
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+.info p {
+    margin: 10px 0;
+    color: #ccc;
+}
+
+.info strong {
+    color: #fff;
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    min-height: 24px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.footer a {
+    color: #0052ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
