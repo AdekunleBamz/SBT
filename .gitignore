@@ -1,0 +1,44 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Wallet files with private keys (CRITICAL - NEVER COMMIT)
+wallets.json
+wallet_addresses.json
+*wallet*.json
+*private*.json
+*keys*.json
+*secret*.json
+
+# Scripts folder (contains sensitive operations)
+scripts/
+*script*.js
+*Script*.js
+
+# Build artifacts
+node_modules/
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Results and outputs
+*_results.json
+minting_results.json
+funding_results.json
