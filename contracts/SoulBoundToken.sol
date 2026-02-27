@@ -110,4 +110,25 @@ contract SoulBoundToken is ERC721, Ownable {
     function getBalance() external view returns (uint256) {
         return address(this).balance;
     }
+
+    /**
+     * @dev Get contract version
+     */
+    function getVersion() external pure returns (string memory) {
+        return "1.0.0";
+    }
+
+    /**
+     * @dev Get contract owner address
+     */
+    function getOwnerAddress() external view returns (address) {
+        return owner();
+    }
+
+    /**
+     * @dev Check if contract is paused
+     */
+    function isPaused() external pure returns (bool) {
+        return false;
+    }
 }
